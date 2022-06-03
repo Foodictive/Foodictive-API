@@ -29,10 +29,10 @@ Before you can deploy this API on cloud you will need these stuffs:
 - Zone : asia-southeast1-b
 - Machine type : n1-standard-1 (1 vCPU, 3.75 GiB memory)
 - Boot Disk : 
--- Operating System : Ubuntu
--- Type : Balanced Persistent disk
--- Size : 10 GB
--- Image : Ubuntu 20.04 LTS
+  * Operating System : Ubuntu
+  * Type : Balanced Persistent disk
+  * Size : 10 GB
+  * Image : Ubuntu 20.04 LTS
 - Open **Networking, Disks, Security, Management, Sole-Tenancy** menu
 - Under **Networking** section, add **web-server** as target tags
 - Click **Create** button

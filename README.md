@@ -79,15 +79,15 @@ npm run start-prod
 12. Access the server using one of this link (replace "VM-Instance-External-IP" with your compute engine external IP)
 - To get all food data
 ```
-http://VM-Instance-External-IP:5000/foods
+http://VM-Instance-External-IP:5000/foods?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwibmFtZSI6ImZvb2RpY3RpdmUiLCJpYXQiOjE0MjU0NzM1MzV9.-Y8OIj3dmi4Khzur8LiuHGy-3M7OSvi4ERE2QkNS4kQ
 ```
 - To get food data based on id
 ```
-http://VM-Instance-External-IP:5000/foods/food-id
+http://VM-Instance-External-IP:5000/foods/food-id?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwibmFtZSI6ImZvb2RpY3RpdmUiLCJpYXQiOjE0MjU0NzM1MzV9.-Y8OIj3dmi4Khzur8LiuHGy-3M7OSvi4ERE2QkNS4kQ
 ```
 - To get food data based on food name
 ```
-http://VM-Instance-External-IP:5000/foods?name=food-name
+http://VM-Instance-External-IP:5000/foods?name=FOOD_NAME&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwibmFtZSI6ImZvb2RpY3RpdmUiLCJpYXQiOjE0MjU0NzM1MzV9.-Y8OIj3dmi4Khzur8LiuHGy-3M7OSvi4ERE2QkNS4kQ
 ```
 13. To make sure that API is still running. Although the SSH is closed. Install Node.js Process Manager using this command
 ```

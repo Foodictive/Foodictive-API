@@ -107,9 +107,8 @@ pm2 start npm --name "Foodictive-API" -- run "start-prod"
 
 ## Commit History
 During development process, our team were working on our private repository and then we downloaded all the files from that repository before we uploaded it to this repository. So all the commit history is erased. This is our commit history on our private repository. Our commit history can also be seen at this link: https://github.com/Abdixta-Winarto/Foodictive.git. Or at these screenshoots
-![github com_Foodictive_FoodData-API_commits_main](https://user-images.githubusercontent.com/105838486/171876987-6c71c491-ef98-4a5c-8775-49782eb15219.png)
 ![github com_Abdixta-Winarto_Foodictive_commits_main_Food-data-API (1)](https://user-images.githubusercontent.com/105838486/172116727-88fbb88e-fa99-46c0-88fd-81f621e63b7a.png)
-
+![github com_Foodictive_FoodData-API_commits_main](https://user-images.githubusercontent.com/105838486/171876987-6c71c491-ef98-4a5c-8775-49782eb15219.png)
 
 ## Reference
 [hapi-auth-jwt2](https://github.com/dwyl/hapi-auth-jwt2.git) by [dwyl](https://github.com/dwyl)

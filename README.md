@@ -109,4 +109,6 @@ During development process, our team were working on our private repository and 
 ![github com_Foodictive_FoodData-API_commits_main](https://user-images.githubusercontent.com/105838486/171876987-6c71c491-ef98-4a5c-8775-49782eb15219.png)
 ![github com_Abdixta-Winarto_Foodictive_commits_main_Food-data-API](https://user-images.githubusercontent.com/105838486/170880902-5d03558d-f878-482b-b555-3739e06782a2.png)
 
+## Reference
+[hapi-auth-jwt2](https://github.com/dwyl/hapi-auth-jwt2.git) by [dwyl](https://github.com/dwyl)
 

@@ -8,8 +8,8 @@ This repository is for our team made API. This API is created by our Cloud Compu
 <br />
 
 ## Cloud Architecture
-![Picture3](https://user-images.githubusercontent.com/105838486/172575193-c952b52d-2aa9-4e65-bfdd-11498990cb94.png)
-Before we started to deploy this API on cloud. We set a budget alert that will send an email to our billing admin emails.
+![Picture3](https://user-images.githubusercontent.com/105838486/172575193-c952b52d-2aa9-4e65-bfdd-11498990cb94.png)<br />
+Before we started to deploy this API on cloud. We set a budget alert that will send an email to our billing admin emails when our billing reached some limits.
 ![Picture2](https://user-images.githubusercontent.com/105838486/172574678-ec4448aa-470f-42d3-bffd-f76c1d241089.png)
 First, we developed an API using Javascript and Hapi framework. Then, we secure this API using JSON Web Token. Without token from JWT, user won’t be able to access our data in this API. After that, we uploaded this API to Github and deployed it in compute engine. Firewall is used to allow access to port 5000. So our API can be accessed publicly.
 

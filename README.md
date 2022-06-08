@@ -7,6 +7,9 @@ This repository is for our team made API. This API is created by our Cloud Compu
 - Candhy Fadhila Arsyad (C2007F0683)
 <br />
 
+## Cloud Architecture
+![Picture1](https://user-images.githubusercontent.com/105838486/172574351-b819332d-8423-43ff-9b9a-47bdcde15630.png)
+
 ## Prerequisites
 Before you can deploy this API on cloud you will need these stuffs:
 - Food data API that has been uploaded into Github

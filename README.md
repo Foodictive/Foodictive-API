@@ -8,7 +8,7 @@ This repository is for our team made API. This API is created by our Cloud Compu
 <br />
 
 ## Cloud Architecture
-![Picture1](https://user-images.githubusercontent.com/105838486/172574351-b819332d-8423-43ff-9b9a-47bdcde15630.png)
+![Picture2](https://user-images.githubusercontent.com/105838486/172574678-ec4448aa-470f-42d3-bffd-f76c1d241089.png)
 
 ## Prerequisites
 Before you can deploy this API on cloud you will need these stuffs:

@@ -8,14 +8,31 @@ This repository is for our team made API. This API is created by our Cloud Compu
 <br />
 
 ## Cloud Architecture
-![Picture3](https://user-images.githubusercontent.com/105838486/172575193-c952b52d-2aa9-4e65-bfdd-11498990cb94.png)<br />
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/105838486/172575193-c952b52d-2aa9-4e65-bfdd-11498990cb94.png">
+</p>
+<br />
 Before we started to deploy this API on cloud. We set a budget alert that will send an email to our billing admin emails when our billing reached some limits.
-![Picture2](https://user-images.githubusercontent.com/105838486/172574678-ec4448aa-470f-42d3-bffd-f76c1d241089.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/105838486/172574678-ec4448aa-470f-42d3-bffd-f76c1d241089.png">
+</p>
 First, we developed an API using Javascript and Hapi framework. Then, we secure this API using JSON Web Token. Without token from JWT, user won’t be able to access our data in this API. After that, we uploaded this API to Github and deployed it in compute engine. Firewall is used to allow access to port 5000. So our API can be accessed publicly.
-![image-removebg-preview](https://user-images.githubusercontent.com/105838486/172991663-a1c60d66-135a-46d9-a85f-3303c950d23a.png)
+<br />
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/105838486/172992375-7c6691b2-bcbe-482c-92dc-366612482ae6.png">
+</p>
+<br />
+<p align="center">
 Our API when accessed without access token
-![image-removebg-preview (1)](https://user-images.githubusercontent.com/105838486/172991862-741279fa-4798-4ffc-ab57-5f3a62a4dd69.png)
+</p>
+<br />
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/105838486/172992313-ed154357-b7e4-48e3-bdce-7f57faf6ea48.png">
+</p>
+<br />
+<p align="center">
 Our API when accessed with access token
+ </p>
 
 ## Prerequisites
 Before you can deploy this API on cloud you will need these stuffs:
